@@ -7,14 +7,13 @@
 
 import React from 'react';
 import {Text, View} from 'react-native';
+import StackNavigator from './navigation/StackNavigator';
 
 function App() {
   return (
-    <View>
-      <Text style={{fontSize: 30}}>Hello React Native</Text>
-      <Text style={{fontSize: 30}}>Prabhat</Text>
-      <Text style={{fontSize: 30}}>Ranjan Shahi</Text>
-    </View>
+    <>
+      <StackNavigator />
+    </>
   );
 }
 
